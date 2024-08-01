@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "send-ton": "ts-node send-ton.ts",
-    "send-token": "ts-node send-token.ts",
+    "active": "ts-node script/active.ts",
+    "send-ton": "ts-node script/send-ton.ts",
+    "send-token": "ts-node script/send-token.ts",
     "mnemonic": "ts-node common/generate_mnemonic.ts"
   },
   "dependencies": {
