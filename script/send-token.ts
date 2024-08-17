@@ -90,7 +90,7 @@ async function main() {
         .storeUint(0, 64)
         .storeCoins(BigInt(Math.round(multipliedValue)))
         .storeAddress(Address.parse(argv.dest))  // destination:MsgAddress
-        .storeAddress(ownerJettonAddress)  // response_destination:MsgAddress
+        .storeAddress(mw.address)  // response_destination:MsgAddress
         .storeUint(0, 1)
         .storeCoins(toNano(0.05))
         .storeUint(0, 1)
